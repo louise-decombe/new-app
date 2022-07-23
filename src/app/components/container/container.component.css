@@ -1,0 +1,15 @@
+.container {
+    height: 50vh;
+    display: flex;
+}
+
+.main {
+    background-color: violet;
+    flex: 3;
+
+}
+
+.aside {
+    background-color: green;
+    flex: 1;
+}
