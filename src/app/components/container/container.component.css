@@ -1,5 +1,5 @@
 .container {
-    height: 50vh;
+    height: calc(100vh - 160px );
     display: flex;
 }
 
@@ -12,4 +12,10 @@
 .aside {
     background-color: green;
     flex: 1;
+}
+
+@media screen and (max-with: 900px){
+    .container {
+        flex-direction: column-reverse;
+    }
 }
